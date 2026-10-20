@@ -17,7 +17,8 @@
     "card.ps1",
     "README.md",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
@@ -27,5 +28,6 @@
       "platform": "web",
       "immediately": true
     }
-  }
+  },
+  "license": "MIT"
 }
