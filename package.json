@@ -1,0 +1,31 @@
+{
+  "name": "dsh-notify",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Attention card for the DSH desktop app: a self-drawn, theme-matched card when a turn finishes or the agent waits for your answer",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "card.ps1",
+    "README.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Attention Notify",
+    "description": "Raises a system notification, a short sound and a (n) title badge when a turn finishes or the agent is waiting for your answer, and clears them once the window is back in front."
+  }
+}
